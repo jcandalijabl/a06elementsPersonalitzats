@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:textError="Introdueix un dni vàlid"
+    app:underlineErrorColor="@color/vermell"
+    app:underlineSuccessColor="@color/verd"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/tvErrorCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/vermell"
+        android:visibility="visible"/>
+
+</LinearLayout>
